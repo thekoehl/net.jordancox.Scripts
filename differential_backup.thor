@@ -11,12 +11,10 @@ require 'time'
 require 'date'
 require 'yaml'
 
-
-
 class DifferentialBackup < Thor
 	desc "backup", "Backup all the things!"
 	def backup
-		config = YAML::load( File.open( '/Users/jordantcox/Desktop/differential_backup.yml' ) )
+		config = YAML::load( File.open( '/etc/differential_backup.cfg' ) )
 		dp = DifferentialBackupProgram.new config
 		dp.perform_backup
 	end
