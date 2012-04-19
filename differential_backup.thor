@@ -2,6 +2,7 @@ require "rubygems"
 require "active_record"
 require "action_pack"
 require "action_view"
+require 'iconv'
 
 require 'digest/md5'
 require 'uri'
@@ -33,10 +34,11 @@ class DifferentialBackupProgram
 				dhash = DifferentialBackupProgram.get_destination_hash destination
 				link_dest = "--link-dest=#{dhash[:directory]}/current"
 
-				rsync_cmd = "#{@rsync_location} #{@rsync_options} #{link_dest} #{source} #{destination}/#{timestamp} 2>&1"
+				rsync_cmd = "#{@rsync_location} #{@rsync_options} #{@excludes} #{link_dest} #{source} #{destination}/#{timestamp} 2>&1"
 				Logger.log "Beginning backup of [source: #{source}, destination: #{destination}]..."
 				Logger.log "- exec: #{rsync_cmd}"
 				output = `#{rsync_cmd}`
+				output = String.to_valid_utf8(output)
 				errors = get_errors output
 				if errors.length > 0
 					Logger.log "ERROR: " + errors[0]
@@ -114,10 +116,19 @@ private
 		@rsync_location = config['rsync_location']
 		@rsync_options = config['rsync_options']
 		@destinations = config['destinations']
+		@excludes = config['excludes']
 	end
 end
 class Logger
 	def self.log message
 		puts "[#{Time.now.strftime("%Y%m%d-%H.%M")}] #{message}"
+	end
+end
+class String
+	def self.to_valid_utf8(str)
+		ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+		valid_string = ic.iconv(str + ' ')[0..-2]
+
+		return valid_string
 	end
 end
