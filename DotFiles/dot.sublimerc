@@ -1,0 +1,11 @@
+{
+  "color_scheme": "Packages/User/barf.tmTheme",
+  "font_face": "Monaco",
+  "font_options":
+  [
+    "no_antialias"
+  ],
+  "font_size": 11,
+  "theme": "Soda Light.sublime-theme"
+}
+
