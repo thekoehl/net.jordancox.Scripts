@@ -29,9 +29,14 @@ class DifferentialBackupProgram
 		total_bytes_sent = 0
 		timestamp = Time.now.strftime("%Y%m%d-%H.%M")
 		@destinations.each do |destination|
+			dhash = DifferentialBackupProgram.get_destination_hash destination
+			if DifferentialBackupProgram.is_destination_remote?(destination) && !Ping.is_up?(dhash[:host])
+				Logger.log "#{dhash[:host]} was not up.  Skipping backing up to this destination."
+				next
+			end
+			
 			create_destination! destination + "/current"
 			@sources.each do |source|
-				dhash = DifferentialBackupProgram.get_destination_hash destination
 				link_dest = "--link-dest=#{dhash[:directory]}/current"
 
 				rsync_cmd = "#{@rsync_location} #{@rsync_options} #{@excludes} #{link_dest} #{source} #{destination}/#{timestamp} 2>&1"
@@ -54,11 +59,17 @@ class DifferentialBackupProgram
 		return destination.include? "@"
 	end
 	def self.get_destination_hash destination
-		match = destination.match(/(.*?)@(.*?)\:(.*)/)
-		unless match && match.length == 4
-			raise "Could not properly split apart remote destination #{destination}"
+		if self.is_destination_remote? destination
+			match = destination.match(/(.*?)@(.*?)\:(.*)/)
+			unless match && match.length == 4
+				raise "Could not properly split apart remote destination #{destination}"
+			end
+			raise "Destination was empty." if match[3].nil? || match[3] == ""
+			return {:username => match[1], :host => match[2], :directory => match[3]}
+		else
+			raise "Destination was empty." if destination.nil? || destination == ""
+			return {:username => nil, :host => nil, :directory => destination}
 		end
-		return {:username => match[1], :host => match[2], :directory => match[3]}
 	end
 private
 	def create_destination! destination
@@ -90,17 +101,27 @@ private
 		return [match.to_s]
 	end
 	def rotate_latest_as_current destination, timestamp
-		destination_hash = DifferentialBackupProgram.get_destination_hash destination
-		ssh_cmd = "ssh #{destination_hash[:username]}@#{destination_hash[:host]} rm -rf #{destination_hash[:directory]}/current 2>&1"
-		Logger.log("- exec: #{ssh_cmd}")
-		results = `#{ssh_cmd}`
+		is_remote = DifferentialBackupProgram.is_destination_remote? destination
+		destination_hash = DifferentialBackupProgram.get_destination_hash destination		
+		cmd = ""
+		if is_remote
+			cmd = "ssh #{destination_hash[:username]}@#{destination_hash[:host]} rm -rf #{destination_hash[:directory]}/current 2>&1"
+		else
+			cmd = "rm -rf #{destination_hash[:directory]}/current 2>&1"
+		end
+		Logger.log("- exec: #{cmd}")
+		results = `#{cmd}`
 		if $?.exitstatus > 0
 			puts results
 			raise "Could not rm remote current directory #{destination_hash.inspect}"
 		end
-		ssh_cmd = "ssh #{destination_hash[:username]}@#{destination_hash[:host]} ln -s #{destination_hash[:directory]}/#{timestamp} #{destination_hash[:directory]}/current 2>&1"
-		Logger.log("- exec: #{ssh_cmd}")
-		results = `#{ssh_cmd}`
+		if is_remote
+			cmd = "ssh #{destination_hash[:username]}@#{destination_hash[:host]} ln -s #{destination_hash[:directory]}/#{timestamp} #{destination_hash[:directory]}/current 2>&1"
+		else
+			cmd = "ln -s #{destination_hash[:directory]}/#{timestamp} #{destination_hash[:directory]}/current 2>&1"
+		end
+		Logger.log("- exec: #{cmd}")
+		results = `#{cmd}`
 		if $?.exitstatus > 0
 			puts results
 			raise "Could not link directory #{destination_hash.inspect}"
@@ -122,6 +143,17 @@ end
 class Logger
 	def self.log message
 		puts "[#{Time.now.strftime("%Y%m%d-%H.%M")}] #{message}"
+	end
+end
+class Ping
+	def self.is_up? host
+		ping_count = 2
+		server = host
+		result = `ping -q -c #{ping_count} #{server}`
+		if ($?.exitstatus == 0)
+		  return true
+		end
+		return false
 	end
 end
 class String
