@@ -1,3 +1,14 @@
+# Filename:  		differential_backup.thor
+# Author: 			Jordan T. Cox
+# Creation Date: 	2012-06-06
+# Description:      A really simple to use differential backup task that uses rsync
+# 					to provide cross-platform backups locally and remotely.
+# 					
+# 					Wanna install this to cron and are using rvm?  This'll help.
+#  1 # Minute  Hour   Day of Month   Month              Day of Week        Command    
+#  2 # (0-59)  (0-23)  (1-31)        (1-12 or Jan-Dec)  (0-6 or Sun-Sat)   
+#  3   46      20      *             *                  *                  (/bin/bash -l -c 'thor differential_backup:backup') &> /var/log/backup.log
+
 require "rubygems"
 require "active_record"
 require "action_pack"
