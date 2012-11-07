@@ -1,0 +1,13 @@
+api_location: "http://monocle.phantomdata.com"
+api_key: ""
+
+sensors:
+    - name: "Laptop - Hard Disk Free"
+      units: "Gb"
+      script: "/bin/df -k | /usr/bin/awk '{ if (NR==2) print $2/1024/1024 }'"
+    - name: "Laptop - Load Average"
+      units: "Percent"
+      script: "/usr/bin/uptime | /usr/bin/awk '{print $9*10}'"
+    - name: "Laptop - Memory Free"
+      units: "M"
+      script: "/usr/bin/top -l1 | /usr/bin/grep Phys | /usr/bin/egrep -o \"[0-9]+[A-Z] free\" | /usr/bin/egrep -o \"[0-9]+\""
