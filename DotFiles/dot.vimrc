@@ -1,6 +1,6 @@
 set nowrap
 syntax on
-colors koehler
+colors brb256
 
 " Auto indentation
 set cindent
