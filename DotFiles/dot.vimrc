@@ -1,16 +1,17 @@
-set nowrap
-syntax on
-colors brb256
-
-" Auto indentation
-set cindent
-set smartindent
-set autoindent
 set expandtab
+set tabstop=2
+set shiftwidth=2
 set number
-set tabstop=4
-set shiftwidth=4
 
-" Adds the status bar back in
+syntax on
+"colorscheme desert256
+"colorscheme manxome
+
+set formatoptions=l
+set lbr
 set laststatus=2
-set statusline=%<%F%=\ [%M%R%H%Y]\ (%(%l%c%))
+set t_Co=256
+
+
+"colorscheme calmar256-dark
+colorscheme xoria256
