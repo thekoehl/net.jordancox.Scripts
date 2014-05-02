@@ -14,4 +14,4 @@ set t_Co=256
 
 
 "colorscheme calmar256-dark
-colorscheme xoria256
+colorscheme default
