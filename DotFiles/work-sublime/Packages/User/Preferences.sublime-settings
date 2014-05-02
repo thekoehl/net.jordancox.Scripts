@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/contrast/hyrule-contrast.tmTheme",
+	"font_face": "Fira Mono",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage",
+		"GitGutter"
+	],
+	"remember_open_files": false,
+	"tab_size": 2,
+	"theme": "Nexus.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true
+}

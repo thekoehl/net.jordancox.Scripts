@@ -1,0 +1,2584 @@
+{
+	"folder_history":
+	[
+		"/Users/jcox/Src/DECOPAC.B2C",
+		"/Users/jcox/Src/DECOPAC.cakes",
+		"/Users/jcox/Downloads/Cuningham Handoff 2/Website Files",
+		"/Users/jcox/Src/DECOPAC.cakes-data",
+		"/Users/jcox/Src/spree",
+		"/Users/jcox/Downloads/Cuningham Handoff/Website Files/cuningham",
+		"/Users/jcox/Src/go/src/GOOGLENY.GOOGCUB",
+		"/Users/jcox/Src/go/src/GOOGLENY.GOOGCUB/cubelab",
+		"/Users/jcox/Src/LAHNETWORK.wpmultisite"
+	],
+	"last_version": 3059,
+	"last_window_id": 45,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1002.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"test_cst",
+						"test_customer_names"
+					],
+					[
+						"test_customer",
+						"test_customer_name"
+					],
+					[
+						"test_custom",
+						"test_customer_names"
+					],
+					[
+						"app",
+						"appContext"
+					],
+					[
+						"view",
+						"viewmodels"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 247.0,
+				"selected_items":
+				[
+					[
+						"user",
+						"Preferences: Settings - User"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"user ",
+						"Preferences: Settings - User"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 516.0
+			},
+			"console":
+			{
+				"height": 141.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/checkout_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182133_remove_not_null_constraint_from_products_on_hand.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/shared/_header.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182207_expand_order_number_size.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/README.md",
+				"/Users/jcox/Src/DECOPAC.B2C/db/schema.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/products_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/orders_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/tasks/import_data.rake",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/tasks/decopac_tasks.rake",
+				"/Users/jcox/Src/DECOPAC.B2C/app/workers/order_xml_worker.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/workers/order_xml_worker_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/.env",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/api/xml/order.v1.rabl",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/spree/order_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/tax_cloud_rate.rb",
+				"/Users/jcox/Src/DECOPAC.cakes-data/cakes-data/ITEMS.XML",
+				"/Users/jcox/Src/DECOPAC.cakes-data/consumer-data/ITEMS.XML",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/layouts/spree_application.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/layouts/application.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/tax_cloud_calculator_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/application_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/config/application.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/set_decorator_dependencies.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/cms/search_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/search.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/cms/search_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/shared/_search.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/cms/search/_search_result.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/cms/search/show.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/spree/user.yml",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/users_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182226_make_users_email_index_unique.spree_auth.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/update_shipment_method.v1.rabl",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/modules/locations/_locations_large.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/secret_token.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/concerns/image_sizes_example.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/bin/rake",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/users_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182206_add_admin_name_column_to_spree_stock_locations.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182205_add_admin_name_column_to_spree_shipping_methods.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/admin/products/_sku_lookup.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140327195522_add_admin_name_to_cms_tile.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/javascripts/admin/cms_admin.js",
+				"/Users/jcox/Src/DECOPAC.B2C/app/overrides/rename-admin-menu-items.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131120221624_add_base_properties.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/_summary.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/base/_headings.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/db/seeds/_shared.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182138_add_cost_currency_to_variants.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/javascripts/cms/views/AccordionView.js",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/orders/_create_account.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/1F6/2D1/spree%2Fapp_configuration%2Fdefault_country_id",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/5EB/101/spree%2Fapp_configuration%2Fshow_products_without_price",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/0A7/991/spree%2Fapp_configuration%2Fattachment_path",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/link_tile.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/layouts/cms.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/modules/tableLayout/_tableLayout_small.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sass/94972ac87530d718c14a6435663a07cf8e86c181/_layout.scssc",
+				"/Users/jcox/Src/DECOPAC.B2C/log/newrelic_agent.log",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sass/0d25dbab4fc6a2010e98445e86f37828156be838/_image_settings.scssc",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182223_rename_columns_for_devise.spree_auth.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/seeds/development.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/cassettes/services/taxcloud_calculator.yml",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182202_migrate_tax_categories_to_line_items.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140429193607_set_order_number_to_integer.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/decopac_import_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182154_add_pending_to_inventory_unit.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140314171139_add_type_to_import_product.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sass/0d25dbab4fc6a2010e98445e86f37828156be838/_orders.scssc",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182137_add_currency_to_orders.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/sitemap_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140429190708_change_order_number_to_serial.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182210_migrate_old_shipping_calculators.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/keywords_multiple_items.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/make_ftp.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/pids/server.pid",
+				"/Users/jcox/Src/DECOPAC.B2C/Capfile",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/tax_cloud.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/cms/taxon_tile_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/javascripts/admin/taxon_selection.js",
+				"/Users/jcox/Src/DECOPAC.B2C/test/services/tax_cloud_calculator_service_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/api/xml_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140428182618_add_endpoint_to_xml_request_log.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/out_of_stock_two_items.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/inventory_status_invalid_date.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/dot.env.skel",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/error_collector.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/ftp_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/spree/credit_card_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/registration.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/import_inventory_status.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/workers/update_inventory_xml_worker.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/edit.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/xml_parsing_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/import_keyword_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/item_xml_one_item.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/item_xml_three_items.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/assets/xsd/update_inventory.xsd",
+				"/Users/jcox/Src/DECOPAC.B2C/test/test_helper.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/factories/variant_factory_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/xsd_match.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/test/services/xml_service_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/content_item.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/api/xml/update_inventory.v1.rabl",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/test_json/inventory_listing.json",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/import_navigate.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/i5_party.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/config/environment.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/.githooks/post-merge-check-skeleton",
+				"/Users/jcox/Src/DECOPAC.B2C/.githooks/pre-commit-schema-extensions",
+				"/Users/jcox/Src/DECOPAC.B2C/config/deploy.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/334/AA1/spree%2Fapp_configuration%2Fdefault_meta_keywords",
+				"/Users/jcox/Src/DECOPAC.B2C/.ruby-version",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/order_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/navigate_xml_multiple_levels.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/KEYWORDS.XML",
+				"/Users/jcox/Src/DECOPAC.B2C/log/test.log",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/cms/content_item_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/config.ru",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/credits_xml_one_items.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/base/_fonts.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/978/221/spree%2Fapp_configuration%2Fshow_only_complete_orders_by_default",
+				"/Users/jcox/Src/spree/backend/app/assets/stylesheets/admin/plugins/_font-awesome.scss",
+				"/Users/jcox/Src/spree/backend/app/assets/fonts/fontawesome-webfont.svg",
+				"/Users/jcox/Src/spree/backend/app/assets/fonts/FontAwesome.otf",
+				"/Users/jcox/Src/spree/core/app/models/spree/promotion/rules/first_order.rb",
+				"/Users/jcox/Src/spree/core/spec/models/spree/asset_spec.rb"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 97.0,
+				"where_history":
+				[
+					"*.*",
+					"*.html.erb",
+					"*.rb ",
+					"*.*",
+					"*.rb",
+					"Gemfile.lock",
+					"*.rb",
+					"*.*",
+					"*.rb",
+					"*.r",
+					"db/migrate/*",
+					"db/migrations/*",
+					"*migration*.*",
+					"*.*",
+					"*.rake",
+					"*.*",
+					"*.rb",
+					"*.*",
+					"*.html.erb",
+					"*.rb",
+					"*.rake",
+					"*.rb",
+					"*xml*.rb",
+					"*.rb",
+					"",
+					"*.*",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"current_user",
+					".to_prepare",
+					"*_decorator*",
+					"checkout_controller_decorator",
+					"_Decorator",
+					"_decorator",
+					"My Account",
+					"fetch_shipping_cart_item",
+					"shipment total",
+					"shipment_total",
+					"number",
+					"\"G",
+					"set_order_number",
+					"stock",
+					"change_col",
+					"alter_column",
+					"after_save",
+					"generate_order_number",
+					"Tax Cloud Rate",
+					"authorize_ta",
+					"create_ta",
+					"fully_create_tax_charge!",
+					"fully_create",
+					"fully_crea",
+					"create_tax_charge!",
+					"def auth",
+					"tax_cloud_calcul",
+					"capture",
+					"cart_",
+					"SizePack",
+					"NetContent",
+					"SizePack",
+					"There was an error loading the XSD validation file",
+					"xsd",
+					"6712",
+					"9613",
+					"9610",
+					"9607",
+					"9526",
+					"DISCOV",
+					"qtyavailable",
+					"content_item_relationships_inverse",
+					"font-path",
+					"image-path",
+					".tax_total =",
+					"<?",
+					"soapEn",
+					"savong",
+					"FedexAddressValidator",
+					"Savon.client",
+					"\"spree_",
+					"product",
+					">90<",
+					"Total",
+					"master",
+					"master_number",
+					"update_totals",
+					"create_tax_charge!",
+					"create_tax_charge",
+					"fully_create_tax_amount",
+					"update_order",
+					"Shipment Total Tax",
+					"shipment_total_tax",
+					"display_total",
+					"summary-order-total",
+					"Order Total:",
+					"fetch_tax_amount",
+					"master_item_number",
+					"fully_create_tax",
+					"amount =",
+					"item.amount",
+					"TotalAmount",
+					"kiosk_cart",
+					"Cupcake Cake Platter - Generic",
+					"Cupcake",
+					"SearchSequenceNumber",
+					"20309",
+					"30069",
+					"30413",
+					"20001",
+					"30007",
+					"10093",
+					"error_collector_email",
+					"IMPORT_ERROR_EMAIL",
+					"TaxCat",
+					"geocode",
+					"geocode:all",
+					"there was no address",
+					"there was",
+					"Use this address instead",
+					"Verify this",
+					"order use_count",
+					"<<<<<",
+					"fetch_transaction",
+					"HEAD",
+					"raise",
+					"fetch_transaction",
+					"binding",
+					"OrderXml",
+					"sizepack",
+					"size_pack",
+					"SizePack",
+					"adjustment",
+					"adjusted_total",
+					"computer_order",
+					"def computer_order",
+					"adjust",
+					"adjustment_to",
+					"adjustme",
+					"adjust",
+					"included_in_price",
+					"create_tax_charge",
+					"adjustm",
+					"def close",
+					"all_adjustments",
+					"promot",
+					"apply_free_shipping_promotions",
+					"promot",
+					"adjustment",
+					"adjustment# ",
+					"adjustment",
+					"coupon",
+					"update_payment_state",
+					"coup",
+					"coupon",
+					"ssl",
+					"update_auth_counts",
+					"verify"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 37.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"gemfile",
+						"Gemfile"
+					],
+					[
+						"search",
+						"app/models/cms/search.rb"
+					],
+					[
+						"users_con",
+						"app/controllers/spree/users_controller_decorator.rb"
+					],
+					[
+						"set_deco",
+						"config/initializers/set_decorator_dependencies.rb"
+					],
+					[
+						"application.rb",
+						"config/application.rb"
+					],
+					[
+						"routes.rb",
+						"config/routes.rb"
+					],
+					[
+						"_header",
+						"app/views/shared/_header.html.erb"
+					],
+					[
+						"layouts/",
+						"app/views/spree/layouts/spree_application.html.erb"
+					],
+					[
+						"application_cont",
+						"app/controllers/application_controller.rb"
+					],
+					[
+						"tax_cloud",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"order_dec",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"tax_calc",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"orderrab",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"order_xml_wor",
+						"app/workers/order_xml_worker.rb"
+					],
+					[
+						"order_de",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"order_xml_work",
+						"test/workers/order_xml_worker_test.rb"
+					],
+					[
+						".env",
+						".env"
+					],
+					[
+						"orders_controller_dec",
+						"app/controllers/spree/orders_controller_decorator.rb"
+					],
+					[
+						"decopac.ra",
+						"lib/tasks/decopac_tasks.rake"
+					],
+					[
+						"to_int",
+						"db/migrate/20140429193607_set_order_number_to_integer.rb"
+					],
+					[
+						"schem",
+						"db/schema.rb"
+					],
+					[
+						"readme",
+						"README.md"
+					],
+					[
+						"migratorder",
+						"db/migrate/20131031182207_expand_order_number_size.spree.rb"
+					],
+					[
+						"serial",
+						"db/migrate/20140429190708_change_order_number_to_serial.rb"
+					],
+					[
+						"order_deco",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"order_deo",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"tax_clou",
+						"app/models/tax_cloud_rate.rb"
+					],
+					[
+						"inventoryxsd",
+						"lib/assets/xsd/update_inventory.xsd"
+					],
+					[
+						"inventory.rb",
+						"app/models/import_inventory_status.rb"
+					],
+					[
+						"error_coll",
+						"lib/error_collector.rb"
+					],
+					[
+						".skel",
+						"dot.env.skel"
+					],
+					[
+						"deco",
+						"lib/tasks/decopac_tasks.rake"
+					],
+					[
+						"skel",
+						"dot.env.skel"
+					],
+					[
+						"ftp_service",
+						"app/services/ftp_service.rb"
+					],
+					[
+						".rake",
+						"lib/tasks/decopac_tasks.rake"
+					],
+					[
+						"orderr",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"orders_contr",
+						"app/controllers/spree/orders_controller_decorator.rb"
+					],
+					[
+						"schema",
+						"db/schema.rb"
+					],
+					[
+						"xml_",
+						"app/controllers/api/xml_controller.rb"
+					],
+					[
+						"add_end",
+						"db/migrate/20140428182618_add_endpoint_to_xml_request_log.rb"
+					],
+					[
+						"test_help",
+						"test/test_helper.rb"
+					],
+					[
+						"contentitem",
+						"app/models/cms/content_item.rb"
+					],
+					[
+						"increase_scal",
+						"db/migrate/20140424173321_increase_scale_on_order_taxation.rb"
+					],
+					[
+						"order",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"gemfile.l",
+						"Gemfile.lock"
+					],
+					[
+						"savon",
+						"config/initializers/savon_initializer.rb"
+					],
+					[
+						"rake",
+						"bin/rake"
+					],
+					[
+						"order_decor",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"spree_contr",
+						"app/controllers/spree/checkout_controller_decorator.rb"
+					],
+					[
+						"tax_cloud_calc",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"tax_cloud_ra",
+						"app/models/tax_cloud_rate.rb"
+					],
+					[
+						"kiosk_cake/rel",
+						"lib/kiosk_cake/relation.rb"
+					],
+					[
+						"kiosk/baker",
+						"app/controllers/kiosk/bakeries_controller.rb"
+					],
+					[
+						"details.json",
+						"app/views/kiosk/bakeries/details.json.jbuilder"
+					],
+					[
+						"ssl",
+						"app/controllers/concerns/ssl_enforcement.rb"
+					],
+					[
+						"gemfile.lo",
+						"Gemfile.lock"
+					],
+					[
+						"chec",
+						"app/controllers/spree/checkout_controller_decorator.rb"
+					],
+					[
+						"checkoutde",
+						"app/controllers/spree/checkout_controller_decorator.rb"
+					],
+					[
+						"tax_",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"order.r",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"summary",
+						"app/views/spree/checkout/_summary.html.erb"
+					],
+					[
+						"taxcloud_calculat",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"update_ship",
+						"app/views/spree/checkout/update_shipment_method.v1.rabl"
+					],
+					[
+						"checkout.js",
+						"app/assets/javascripts/store/checkout.js.coffee"
+					],
+					[
+						"orders/",
+						"app/views/spree/orders/_adjustments.html.erb"
+					],
+					[
+						"order.v1",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"tax_cloud_",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"add_shipment",
+						"db/migrate/20140417174924_add_shipment_tax_to_spree_orders.rb"
+					],
+					[
+						"tax_total_to",
+						"db/migrate/20140401222926_add_tax_total_to_spree_orders.spree.rb"
+					],
+					[
+						"seeds/share",
+						"db/seeds/_shared.rb"
+					],
+					[
+						"schedule",
+						"config/schedule.rb"
+					],
+					[
+						"development.rb",
+						"config/environments/development.rb"
+					],
+					[
+						"app_conf",
+						"config/app_config.yml.skel"
+					],
+					[
+						"chores.",
+						"lib/tasks/chores.rake"
+					],
+					[
+						"chores.ra",
+						"lib/tasks/chores.rake"
+					],
+					[
+						"develop",
+						"db/seeds/development.rb"
+					],
+					[
+						"promoti",
+						"core/app/models/spree/promotion.rb"
+					],
+					[
+						"line",
+						"core/app/models/spree/line_item.rb"
+					],
+					[
+						"order.rb",
+						"test/models/spree_order.rb"
+					],
+					[
+						"tax_cl",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"adjustment.rb",
+						"core/app/models/spree/adjustment.rb"
+					],
+					[
+						"taxra",
+						"core/app/models/spree/tax_rate.rb"
+					],
+					[
+						"promotion",
+						"core/app/models/spree/promotion.rb"
+					],
+					[
+						"coupon",
+						"core/app/models/spree/promotion_handler/coupon.rb"
+					],
+					[
+						"image",
+						"lib/tasks/cakes_images.rake"
+					],
+					[
+						"env",
+						"dot.env.skel"
+					],
+					[
+						"decopac_import_ser",
+						"app/services/decopac_import_service.rb"
+					],
+					[
+						"capfi",
+						"Capfile"
+					],
+					[
+						"sidekiq.",
+						"config/sidekiq.yml.skel"
+					],
+					[
+						"i5_par",
+						"app/services/i5_party.rb"
+					],
+					[
+						"add_bae",
+						"db/migrate/20131120221624_add_base_properties.rb"
+					],
+					[
+						"deploy",
+						"config/deploy.rb"
+					],
+					[
+						"database",
+						"config/database.skel.yml"
+					],
+					[
+						"add_auth",
+						"db/migrate/20130530205013_add_auth_rules_count_to_customers.rb"
+					],
+					[
+						"orders_helpe",
+						"app/helpers/kiosk/orders_helper.rb"
+					],
+					[
+						"orders_helper",
+						"app/helpers/admin/orders_helper.rb"
+					],
+					[
+						"cake.rb",
+						"app/models/cake.rb"
+					],
+					[
+						"cakesshow",
+						"app/views/cakes/show.html.erb"
+					],
+					[
+						"image.rb",
+						"app/models/image.rb"
+					],
+					[
+						"customer.rb",
+						"app/models/customer.rb"
+					],
+					[
+						"add_auth_r",
+						"db/migrate/20130530205013_add_auth_rules_count_to_customers.rb"
+					],
+					[
+						"cart.rb",
+						"app/models/cart.rb"
+					],
+					[
+						"enter",
+						"app/views/orders/enter_payment_information.html.erb"
+					],
+					[
+						"enter_you",
+						"app/views/orders/enter_your_information.html.erb"
+					],
+					[
+						"environme",
+						"config/environment.rb"
+					],
+					[
+						"cakes_xml",
+						"lib/tasks/cakes_xml.rake"
+					],
+					[
+						"cubelab",
+						"cubelab.go"
+					],
+					[
+						"experimentsnew",
+						"viewmodels/experimentsNew.go"
+					],
+					[
+						"experiment",
+						"viewmodels/experimentsIndex.go"
+					],
+					[
+						"addbasepr",
+						"db/migrate/20131120221624_add_base_properties.rb"
+					],
+					[
+						"images",
+						"app/validators/image_dimensions_validator.rb"
+					],
+					[
+						"sh",
+						"~/Desktop/Shane review"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 321.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1600.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"test_cst",
+						"test_customer_names"
+					],
+					[
+						"test_customer",
+						"test_customer_name"
+					],
+					[
+						"test_custom",
+						"test_customer_names"
+					],
+					[
+						"app",
+						"appContext"
+					],
+					[
+						"view",
+						"viewmodels"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/make.rb",
+					"settings":
+					{
+						"buffer_size": 806,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/dot.env.skel",
+					"settings":
+					{
+						"buffer_size": 1458,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/app/services/decopac_import_service.rb",
+					"settings":
+					{
+						"buffer_size": 7407,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/test/test_helper.rb",
+					"settings":
+					{
+						"buffer_size": 3871,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/.env",
+					"settings":
+					{
+						"buffer_size": 1518,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140501224340_add_primary_image_to_products.rb",
+					"settings":
+					{
+						"buffer_size": 445,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/app/views/shared/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 4174,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/products_controller_decorator.rb",
+					"settings":
+					{
+						"buffer_size": 1083,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/process/image_import.rb",
+					"settings":
+					{
+						"buffer_size": 2082,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Searching 439 files for \"image_map\"\n\n/Users/jcox/Src/DECOPAC.B2C/app/services/decopac_import_service.rb:\n   46  \n   47      #read image xml and convert to a hash of filenames to item numbers\n   48:     image_map = XmlImport::Process::ImageMapper.process(image_xml, :supply)\n   49  \n   50:     importer = XmlImport::Process::ImageImport.factory(:supply, image_map)\n   51  \n   52:     importer.run(:supply, image_map) do |error|\n   53        ErrorCollector.instance.add_error(RuntimeError.new(error))\n   54      end\n   ..\n   59  \n   60      #read image xml and convert to a hash of filenames to item numbers\n   61:     image_map = XmlImport::Process::ImageMapper.process(image_xml, :cake)\n   62  \n   63:     importer = XmlImport::Process::ImageImport.factory(:cake, image_map)\n   64  \n   65      importer.run do |error|\n\n/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/process/image_import.rb:\n    8      }\n    9  \n   10:     attr_accessor :image_map, :bucket\n   11      attr_reader :type\n   12  \n   13:     def self.factory(type=:cake, image_map={})\n   14        new(\n   15          ENV['S3_ACCESS_KEY_ID'],\n   ..\n   17          ENV['S3_BUCKET'],\n   18          type,\n   19:         image_map\n   20        )\n   21      end\n   22  \n   23:     def initialize(key, secret, bucket, type, image_map)\n   24        @connection = AWS::S3.new(\n   25          access_key_id: key,\n   ..\n   29        self.bucket = @connection.buckets[bucket]\n   30        self.type = type\n   31:       self.image_map = image_map\n   32      end\n   33  \n   ..\n   62        file_list.each do |s3_object|\n   63          filename = File.basename(s3_object.key)\n   64:         product_id = self.image_map[filename]\n   65  \n   66          variant = self.find_variant(product_id)\n\n12 matches across 2 files\n\n\nSearching 439 files for \"TAXCLOUD_API_KEY\"\n\n/Users/jcox/Src/DECOPAC.B2C/config/initializers/tax_cloud.rb:\n    1  TaxCloud.configure do |config|\n    2    config.api_login_id = ENV['TAXCLOUD_API_LOGIN_ID']\n    3:   config.api_key = ENV['TAXCLOUD_API_KEY']\n    4  end\n    5  \n\n1 match in 1 file\n\n\nSearching 439 files for \"AWS\"\n\n/Users/jcox/Src/DECOPAC.B2C/lib/paperclip/s3_object_adapter.rb:\n   33  \n   34  Paperclip.io_adapters.register Paperclip::S3ObjectAdapter do |target|\n   35:   AWS::S3::S3Object === target\n   36  end\n   37  \n\n/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/process/image_import.rb:\n    1: require 'aws/s3'\n    2  \n    3  module XmlImport::Process\n    .\n   22  \n   23      def initialize(key, secret, bucket, type, image_map)\n   24:       @connection = AWS::S3.new(\n   25          access_key_id: key,\n   26          secret_access_key: secret\n\n3 matches across 2 files\n\n\nSearching 439 files for \"CREDITS_FILENAME\"\n\n/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/make.rb:\n   14  \n   15    def credits_xml\n   16:     @client.get_file(ENV['CREDITS_FILENAME'])\n   17    end\n   18  \n   ..\n   40  \n   41    def validate_env_settings\n   42:     %w(ITEM_FILENAME NAVIGATE_FILENAME CREDITS_FILENAME RETURNS_FILENAME INVENTORY_FILENAME KEYWORD_FILENAME VIDEO_SITEMAP_FILENAME IMAGE_FILENAME).each do |config_key|\n   43        raise \"#{config_key} must be set in the env file\" if ENV[config_key].nil?\n   44      end\n\n/Users/jcox/Src/DECOPAC.B2C/test/lib/xml_import/ftp/make_ftp_test.rb:\n   35  \n   36    test 'it fetches the credit xml' do\n   37:     ENV['CREDITS_FILENAME'] = 'directory/credit.xml'\n   38  \n   39      client = MiniTest::Mock.new\n\n3 matches across 2 files\n\n\nSearching 439 files for \"credits_xml\"\n\n/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/make.rb:\n   13    end\n   14  \n   15:   #def credits_xml\n   16    #  @client.get_file(ENV['CREDITS_FILENAME'])\n   17    #end\n\n/Users/jcox/Src/DECOPAC.B2C/test/lib/xml_import/ftp/make_ftp_test.rb:\n   41  \n   42      service = XmlImport::Ftp::Make.new client\n   43:     service.credits_xml\n   44  \n   45      client.verify\n\n/Users/jcox/Src/DECOPAC.B2C/test/services/xml_service_test.rb:\n   53  \n   54    test \"one item in Credits XML\" do\n   55:     in_xml = load_xml_fixture \"credits_xml_one_items.xml\"\n   56      objs = XmlParsingService.convert_credits(in_xml)\n   57  \n   ..\n   63  \n   64    test \"two item in Credits XML\" do\n   65:     in_xml = load_xml_fixture \"credits_xml_two_items.xml\"\n   66      objs = XmlParsingService.convert_credits(in_xml)\n   67  \n\n/Users/jcox/Src/DECOPAC.B2C/test/services/xml_xsd_validation_test.rb:\n   10    test \"it will pass validation - credits\" do\n   11      xsd_string = XmlParsingService.get_xsd_from_filename('credits.xsd')\n   12:     in_xml = load_xml_fixture \"credits_xml_two_items.xml\"\n   13      assert XmlParsingService.validate_xml(in_xml, xsd_string)\n   14    end\n\n5 matches across 4 files\n\n\nSearching 439 files for \"CREDITS_FILENAME\"\n\n/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/make.rb:\n   14  \n   15    #def credits_xml\n   16:   #  @client.get_file(ENV['CREDITS_FILENAME'])\n   17    #end\n   18  \n   ..\n   40  \n   41    def validate_env_settings\n   42:     %w(ITEM_FILENAME NAVIGATE_FILENAME CREDITS_FILENAME RETURNS_FILENAME INVENTORY_FILENAME KEYWORD_FILENAME VIDEO_SITEMAP_FILENAME IMAGE_FILENAME).each do |config_key|\n   43        raise \"#{config_key} must be set in the env file\" if ENV[config_key].nil?\n   44      end\n\n2 matches in 1 file\n",
+					"settings":
+					{
+						"buffer_size": 5227,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/test/lib/xml_import/ftp/make_ftp_test.rb",
+					"settings":
+					{
+						"buffer_size": 1706,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/app/views/spree/products/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 147,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/jcox/Src/DECOPAC.B2C/app/views/spree/products/_cake.html.erb",
+					"settings":
+					{
+						"buffer_size": 8244,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 223.0,
+				"selected_items":
+				[
+					[
+						"user",
+						"Preferences: Settings - User"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"user ",
+						"Preferences: Settings - User"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 516.0
+			},
+			"console":
+			{
+				"height": 141.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/jcox/Src/DECOPAC.B2C/lib/assets/xsd/credits.xsd",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/content_item_relationship.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/Capfile",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/products_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/tax_cloud_rate.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/tasks/decopac_tasks.rake",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/concerns/image_sizes.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/assets/xsd/images.xsd",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/process/image_mapper.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/i5_party.rb",
+				"/Users/jcox/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/jcox/Src/DECOPAC.B2C/config/routes.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/layouts/spree_application.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/buy.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140501224340_add_primary_image_to_products.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/helpers/application_helper.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/.env",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/shared/_header.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/cms/products_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/client.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/config/environment.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/concerns/cart_listener.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/images/cakes-logo.svg",
+				"/Users/jcox/Src/DECOPAC.B2C/config/application.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/cms/products/cakes.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/schema.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/0A7/991/spree%2Fapp_configuration%2Fattachment_path",
+				"/Users/jcox/Src/DECOPAC.B2C/config/spree.yml",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182182_drop_products_count_on_hand.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/products.json",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/base/_headings.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/application_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/stylesheets/print.css",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/content_item.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182215_resize_api_key_field.spree_api.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140106174107_rename_ship_confirm_table.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182217_create_skrill_transactions.spree_gateway.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140424173321_increase_scale_on_order_taxation.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182125_spree_one_two.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/F3D/BD0/spree%2Fcalculator%2Fflat_rate%2Famount%2F9",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sprockets/db042191f01414fb8fb7ecb54fd41f3a",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182210_migrate_old_shipping_calculators.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182174_migrate_inventory_unit_sold_to_on_hand.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/keywords_multiple_items.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/mime_types.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/shared/_footer.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/bin/rake",
+				"/Users/jcox/Src/DECOPAC.B2C/test/factories/cms_slideshow_factory.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/import_ship_confirm_order.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/seeds/_shared.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/spree/product_relationship.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/checkout_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182133_remove_not_null_constraint_from_products_on_hand.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182207_expand_order_number_size.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/README.md",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/orders_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/tasks/import_data.rake",
+				"/Users/jcox/Src/DECOPAC.B2C/app/workers/order_xml_worker.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/workers/order_xml_worker_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/api/xml/order.v1.rabl",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/spree/order_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.cakes-data/cakes-data/ITEMS.XML",
+				"/Users/jcox/Src/DECOPAC.cakes-data/consumer-data/ITEMS.XML",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/layouts/application.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/tax_cloud_calculator_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/set_decorator_dependencies.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/cms/search_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/search.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/cms/search_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/shared/_search.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/cms/search/_search_result.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/cms/search/show.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/spree/user.yml",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/users_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182226_make_users_email_index_unique.spree_auth.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/update_shipment_method.v1.rabl",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/modules/locations/_locations_large.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/secret_token.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/concerns/image_sizes_example.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/users_controller_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182206_add_admin_name_column_to_spree_stock_locations.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182205_add_admin_name_column_to_spree_shipping_methods.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/admin/products/_sku_lookup.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140327195522_add_admin_name_to_cms_tile.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/javascripts/admin/cms_admin.js",
+				"/Users/jcox/Src/DECOPAC.B2C/app/overrides/rename-admin-menu-items.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131120221624_add_base_properties.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/_summary.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182138_add_cost_currency_to_variants.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/javascripts/cms/views/AccordionView.js",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/orders/_create_account.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/1F6/2D1/spree%2Fapp_configuration%2Fdefault_country_id",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/5EB/101/spree%2Fapp_configuration%2Fshow_products_without_price",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/cms/link_tile.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/layouts/cms.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/scss/modules/tableLayout/_tableLayout_small.scss",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sass/94972ac87530d718c14a6435663a07cf8e86c181/_layout.scssc",
+				"/Users/jcox/Src/DECOPAC.B2C/log/newrelic_agent.log",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sass/0d25dbab4fc6a2010e98445e86f37828156be838/_image_settings.scssc",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182223_rename_columns_for_devise.spree_auth.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/seeds/development.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/cassettes/services/taxcloud_calculator.yml",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182202_migrate_tax_categories_to_line_items.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140429193607_set_order_number_to_integer.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/decopac_import_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182154_add_pending_to_inventory_unit.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140314171139_add_type_to_import_product.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/cache/assets/development/sass/0d25dbab4fc6a2010e98445e86f37828156be838/_orders.scssc",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20131031182137_add_currency_to_orders.spree.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/sitemap_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140429190708_change_order_number_to_serial.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/make_ftp.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/tmp/pids/server.pid",
+				"/Users/jcox/Src/DECOPAC.B2C/config/initializers/tax_cloud.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/models/cms/taxon_tile_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/assets/javascripts/admin/taxon_selection.js",
+				"/Users/jcox/Src/DECOPAC.B2C/test/services/tax_cloud_calculator_service_test.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/controllers/api/xml_controller.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140428182618_add_endpoint_to_xml_request_log.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/out_of_stock_two_items.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/test/fixtures/xml/inventory_status_invalid_date.xml",
+				"/Users/jcox/Src/DECOPAC.B2C/dot.env.skel",
+				"/Users/jcox/Src/DECOPAC.B2C/lib/error_collector.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/services/ftp_service.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/spree/credit_card_decorator.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/views/spree/checkout/registration.html.erb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/models/import_inventory_status.rb",
+				"/Users/jcox/Src/DECOPAC.B2C/app/workers/update_inventory_xml_worker.rb"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 97.0,
+				"where_history":
+				[
+					"*.rb",
+					"*.html.erb",
+					"*.*",
+					"*.html.erb",
+					"*.rb ",
+					"*.*",
+					"*.rb",
+					"Gemfile.lock",
+					"*.rb",
+					"*.*",
+					"*.rb",
+					"*.r",
+					"db/migrate/*",
+					"db/migrations/*",
+					"*migration*.*",
+					"*.*",
+					"*.rake",
+					"*.*",
+					"*.rb",
+					"*.*",
+					"*.html.erb",
+					"*.rb",
+					"*.rake",
+					"*.rb",
+					"*xml*.rb",
+					"*.rb",
+					"",
+					"*.*",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"CREDITS_FILENAME",
+					"credits_xml",
+					"CREDITS_FILENAME",
+					"AWS",
+					"TAXCLOUD_API_KEY",
+					"ENV",
+					"image_map",
+					"CREDITS_FILENAME",
+					"get_file",
+					"@taxon",
+					"active_link_class",
+					"current_page?",
+					"active_link_class",
+					"ENV['MAKE_URI']",
+					"ENV",
+					"make_url",
+					"ENV['MAKE_URL']",
+					"ENV[",
+					"current_user",
+					".to_prepare",
+					"*_decorator*",
+					"checkout_controller_decorator",
+					"_Decorator",
+					"_decorator",
+					"My Account",
+					"fetch_shipping_cart_item",
+					"shipment total",
+					"shipment_total",
+					"number",
+					"\"G",
+					"set_order_number",
+					"stock",
+					"change_col",
+					"alter_column",
+					"after_save",
+					"generate_order_number",
+					"Tax Cloud Rate",
+					"authorize_ta",
+					"create_ta",
+					"fully_create_tax_charge!",
+					"fully_create",
+					"fully_crea",
+					"create_tax_charge!",
+					"def auth",
+					"tax_cloud_calcul",
+					"capture",
+					"cart_",
+					"SizePack",
+					"NetContent",
+					"SizePack",
+					"There was an error loading the XSD validation file",
+					"xsd",
+					"6712",
+					"9613",
+					"9610",
+					"9607",
+					"9526",
+					"DISCOV",
+					"qtyavailable",
+					"content_item_relationships_inverse",
+					"font-path",
+					"image-path",
+					".tax_total =",
+					"<?",
+					"soapEn",
+					"savong",
+					"FedexAddressValidator",
+					"Savon.client",
+					"\"spree_",
+					"product",
+					">90<",
+					"Total",
+					"master",
+					"master_number",
+					"update_totals",
+					"create_tax_charge!",
+					"create_tax_charge",
+					"fully_create_tax_amount",
+					"update_order",
+					"Shipment Total Tax",
+					"shipment_total_tax",
+					"display_total",
+					"summary-order-total",
+					"Order Total:",
+					"fetch_tax_amount",
+					"master_item_number",
+					"fully_create_tax",
+					"amount =",
+					"item.amount",
+					"TotalAmount",
+					"kiosk_cart",
+					"Cupcake Cake Platter - Generic",
+					"Cupcake",
+					"SearchSequenceNumber",
+					"20309",
+					"30069",
+					"30413",
+					"20001",
+					"30007",
+					"10093",
+					"error_collector_email",
+					"IMPORT_ERROR_EMAIL",
+					"TaxCat",
+					"geocode",
+					"geocode:all",
+					"there was no address",
+					"there was",
+					"Use this address instead",
+					"Verify this",
+					"order use_count",
+					"<<<<<",
+					"fetch_transaction",
+					"HEAD",
+					"raise",
+					"fetch_transaction",
+					"binding",
+					"OrderXml",
+					"sizepack",
+					"size_pack",
+					"SizePack",
+					"adjustment",
+					"adjusted_total",
+					"computer_order",
+					"def computer_order",
+					"adjust",
+					"adjustment_to",
+					"adjustme",
+					"adjust"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"follow_symlinks": true,
+					"path": "/Users/jcox/Src/DECOPAC.B2C"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/ftp/make.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 806,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										409,
+										409
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/dot.env.skel",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1458,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										659,
+										659
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/app/services/decopac_import_service.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7407,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1481,
+										1481
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 715.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/test/test_helper.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3871,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3036,
+										3036
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1556.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/.env",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1518,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										789,
+										325
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/db/migrate/20140501224340_add_primary_image_to_products.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 445,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										228,
+										228
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 5,
+					"sheets":
+					[
+						{
+							"buffer": 6,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/app/views/shared/_header.html.erb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4174,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1345,
+										1345
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 142.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/app/controllers/spree/products_controller_decorator.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1083,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										435,
+										500
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 137.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/dot.env.skel",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1458,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										678,
+										678
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/.env",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1518,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										656,
+										656
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/lib/xml_import/process/image_import.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2082,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										246,
+										246
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5227,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												202,
+												211
+											],
+											[
+												353,
+												362
+											],
+											[
+												405,
+												414
+											],
+											[
+												617,
+												626
+											],
+											[
+												764,
+												773
+											],
+											[
+												934,
+												943
+											],
+											[
+												1030,
+												1039
+											],
+											[
+												1177,
+												1186
+											],
+											[
+												1278,
+												1287
+											],
+											[
+												1473,
+												1482
+											],
+											[
+												1485,
+												1494
+											],
+											[
+												1655,
+												1664
+											],
+											[
+												2002,
+												2018
+											],
+											[
+												2250,
+												2253
+											],
+											[
+												2383,
+												2386
+											],
+											[
+												2537,
+												2540
+											],
+											[
+												2820,
+												2836
+											],
+											[
+												2956,
+												2972
+											],
+											[
+												3328,
+												3344
+											],
+											[
+												3577,
+												3588
+											],
+											[
+												3808,
+												3819
+											],
+											[
+												4006,
+												4017
+											],
+											[
+												4196,
+												4207
+											],
+											[
+												4532,
+												4543
+											],
+											[
+												4837,
+												4853
+											],
+											[
+												4974,
+												4990
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										5227,
+										5227
+									]
+								],
+								"settings":
+								{
+									"detect_indentation": false,
+									"line_numbers": false,
+									"output_tag": 6,
+									"result_base_dir": "",
+									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3255.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/test/lib/xml_import/ftp/make_ftp_test.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1706,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										796,
+										796
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 490.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/app/views/spree/products/show.html.erb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 147,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6,
+										20
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/Users/jcox/Src/DECOPAC.B2C/app/views/spree/products/_cake.html.erb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8244,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										518,
+										518
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 37.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "47 4 1600 1024 0 0 1680 1028 ",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"primary_im",
+						"db/migrate/20140501224340_add_primary_image_to_products.rb"
+					],
+					[
+						"dot",
+						"dot.env.skel"
+					],
+					[
+						".env",
+						".env"
+					],
+					[
+						"test_help",
+						"test/test_helper.rb"
+					],
+					[
+						"decopac_import_",
+						"app/services/decopac_import_service.rb"
+					],
+					[
+						"image_import",
+						"lib/xml_import/process/image_import.rb"
+					],
+					[
+						"client.rb",
+						"lib/xml_import/ftp/client.rb"
+					],
+					[
+						"dot.e",
+						"dot.env.skel"
+					],
+					[
+						"application_help",
+						"app/helpers/application_helper.rb"
+					],
+					[
+						"productscake",
+						"app/views/spree/products/_cake.html.erb"
+					],
+					[
+						"productsshow",
+						"app/views/spree/products/show.html.erb"
+					],
+					[
+						"_header",
+						"app/views/shared/_header.html.erb"
+					],
+					[
+						"products_contr",
+						"app/controllers/spree/products_controller_decorator.rb"
+					],
+					[
+						"routes.rb",
+						"config/routes.rb"
+					],
+					[
+						"gemfile",
+						"Gemfile"
+					],
+					[
+						"search",
+						"app/models/cms/search.rb"
+					],
+					[
+						"users_con",
+						"app/controllers/spree/users_controller_decorator.rb"
+					],
+					[
+						"set_deco",
+						"config/initializers/set_decorator_dependencies.rb"
+					],
+					[
+						"application.rb",
+						"config/application.rb"
+					],
+					[
+						"layouts/",
+						"app/views/spree/layouts/spree_application.html.erb"
+					],
+					[
+						"application_cont",
+						"app/controllers/application_controller.rb"
+					],
+					[
+						"tax_cloud",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"order_dec",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"tax_calc",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"orderrab",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"order_xml_wor",
+						"app/workers/order_xml_worker.rb"
+					],
+					[
+						"order_de",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"order_xml_work",
+						"test/workers/order_xml_worker_test.rb"
+					],
+					[
+						"orders_controller_dec",
+						"app/controllers/spree/orders_controller_decorator.rb"
+					],
+					[
+						"decopac.ra",
+						"lib/tasks/decopac_tasks.rake"
+					],
+					[
+						"to_int",
+						"db/migrate/20140429193607_set_order_number_to_integer.rb"
+					],
+					[
+						"schem",
+						"db/schema.rb"
+					],
+					[
+						"readme",
+						"README.md"
+					],
+					[
+						"migratorder",
+						"db/migrate/20131031182207_expand_order_number_size.spree.rb"
+					],
+					[
+						"serial",
+						"db/migrate/20140429190708_change_order_number_to_serial.rb"
+					],
+					[
+						"order_deco",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"order_deo",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"tax_clou",
+						"app/models/tax_cloud_rate.rb"
+					],
+					[
+						"inventoryxsd",
+						"lib/assets/xsd/update_inventory.xsd"
+					],
+					[
+						"inventory.rb",
+						"app/models/import_inventory_status.rb"
+					],
+					[
+						"error_coll",
+						"lib/error_collector.rb"
+					],
+					[
+						".skel",
+						"dot.env.skel"
+					],
+					[
+						"deco",
+						"lib/tasks/decopac_tasks.rake"
+					],
+					[
+						"skel",
+						"dot.env.skel"
+					],
+					[
+						"ftp_service",
+						"app/services/ftp_service.rb"
+					],
+					[
+						".rake",
+						"lib/tasks/decopac_tasks.rake"
+					],
+					[
+						"orderr",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"orders_contr",
+						"app/controllers/spree/orders_controller_decorator.rb"
+					],
+					[
+						"schema",
+						"db/schema.rb"
+					],
+					[
+						"xml_",
+						"app/controllers/api/xml_controller.rb"
+					],
+					[
+						"add_end",
+						"db/migrate/20140428182618_add_endpoint_to_xml_request_log.rb"
+					],
+					[
+						"contentitem",
+						"app/models/cms/content_item.rb"
+					],
+					[
+						"increase_scal",
+						"db/migrate/20140424173321_increase_scale_on_order_taxation.rb"
+					],
+					[
+						"order",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"gemfile.l",
+						"Gemfile.lock"
+					],
+					[
+						"savon",
+						"config/initializers/savon_initializer.rb"
+					],
+					[
+						"rake",
+						"bin/rake"
+					],
+					[
+						"order_decor",
+						"app/models/spree/order_decorator.rb"
+					],
+					[
+						"spree_contr",
+						"app/controllers/spree/checkout_controller_decorator.rb"
+					],
+					[
+						"tax_cloud_calc",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"tax_cloud_ra",
+						"app/models/tax_cloud_rate.rb"
+					],
+					[
+						"kiosk_cake/rel",
+						"lib/kiosk_cake/relation.rb"
+					],
+					[
+						"kiosk/baker",
+						"app/controllers/kiosk/bakeries_controller.rb"
+					],
+					[
+						"details.json",
+						"app/views/kiosk/bakeries/details.json.jbuilder"
+					],
+					[
+						"ssl",
+						"app/controllers/concerns/ssl_enforcement.rb"
+					],
+					[
+						"gemfile.lo",
+						"Gemfile.lock"
+					],
+					[
+						"chec",
+						"app/controllers/spree/checkout_controller_decorator.rb"
+					],
+					[
+						"checkoutde",
+						"app/controllers/spree/checkout_controller_decorator.rb"
+					],
+					[
+						"tax_",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"order.r",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"summary",
+						"app/views/spree/checkout/_summary.html.erb"
+					],
+					[
+						"taxcloud_calculat",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"update_ship",
+						"app/views/spree/checkout/update_shipment_method.v1.rabl"
+					],
+					[
+						"checkout.js",
+						"app/assets/javascripts/store/checkout.js.coffee"
+					],
+					[
+						"orders/",
+						"app/views/spree/orders/_adjustments.html.erb"
+					],
+					[
+						"order.v1",
+						"app/views/api/xml/order.v1.rabl"
+					],
+					[
+						"tax_cloud_",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"add_shipment",
+						"db/migrate/20140417174924_add_shipment_tax_to_spree_orders.rb"
+					],
+					[
+						"tax_total_to",
+						"db/migrate/20140401222926_add_tax_total_to_spree_orders.spree.rb"
+					],
+					[
+						"seeds/share",
+						"db/seeds/_shared.rb"
+					],
+					[
+						"schedule",
+						"config/schedule.rb"
+					],
+					[
+						"development.rb",
+						"config/environments/development.rb"
+					],
+					[
+						"app_conf",
+						"config/app_config.yml.skel"
+					],
+					[
+						"chores.",
+						"lib/tasks/chores.rake"
+					],
+					[
+						"chores.ra",
+						"lib/tasks/chores.rake"
+					],
+					[
+						"develop",
+						"db/seeds/development.rb"
+					],
+					[
+						"promoti",
+						"core/app/models/spree/promotion.rb"
+					],
+					[
+						"line",
+						"core/app/models/spree/line_item.rb"
+					],
+					[
+						"order.rb",
+						"test/models/spree_order.rb"
+					],
+					[
+						"tax_cl",
+						"app/services/tax_cloud_calculator_service.rb"
+					],
+					[
+						"adjustment.rb",
+						"core/app/models/spree/adjustment.rb"
+					],
+					[
+						"taxra",
+						"core/app/models/spree/tax_rate.rb"
+					],
+					[
+						"promotion",
+						"core/app/models/spree/promotion.rb"
+					],
+					[
+						"coupon",
+						"core/app/models/spree/promotion_handler/coupon.rb"
+					],
+					[
+						"image",
+						"lib/tasks/cakes_images.rake"
+					],
+					[
+						"env",
+						"dot.env.skel"
+					],
+					[
+						"decopac_import_ser",
+						"app/services/decopac_import_service.rb"
+					],
+					[
+						"capfi",
+						"Capfile"
+					],
+					[
+						"sidekiq.",
+						"config/sidekiq.yml.skel"
+					],
+					[
+						"i5_par",
+						"app/services/i5_party.rb"
+					],
+					[
+						"add_bae",
+						"db/migrate/20131120221624_add_base_properties.rb"
+					],
+					[
+						"deploy",
+						"config/deploy.rb"
+					],
+					[
+						"database",
+						"config/database.skel.yml"
+					],
+					[
+						"add_auth",
+						"db/migrate/20130530205013_add_auth_rules_count_to_customers.rb"
+					],
+					[
+						"orders_helpe",
+						"app/helpers/kiosk/orders_helper.rb"
+					],
+					[
+						"orders_helper",
+						"app/helpers/admin/orders_helper.rb"
+					],
+					[
+						"cake.rb",
+						"app/models/cake.rb"
+					],
+					[
+						"cakesshow",
+						"app/views/cakes/show.html.erb"
+					],
+					[
+						"image.rb",
+						"app/models/image.rb"
+					],
+					[
+						"customer.rb",
+						"app/models/customer.rb"
+					],
+					[
+						"add_auth_r",
+						"db/migrate/20130530205013_add_auth_rules_count_to_customers.rb"
+					],
+					[
+						"cart.rb",
+						"app/models/cart.rb"
+					],
+					[
+						"enter",
+						"app/views/orders/enter_payment_information.html.erb"
+					],
+					[
+						"enter_you",
+						"app/views/orders/enter_your_information.html.erb"
+					],
+					[
+						"environme",
+						"config/environment.rb"
+					],
+					[
+						"cakes_xml",
+						"lib/tasks/cakes_xml.rake"
+					],
+					[
+						"cubelab",
+						"cubelab.go"
+					],
+					[
+						"experimentsnew",
+						"viewmodels/experimentsNew.go"
+					],
+					[
+						"experiment",
+						"viewmodels/experimentsIndex.go"
+					],
+					[
+						"addbasepr",
+						"db/migrate/20131120221624_add_base_properties.rb"
+					],
+					[
+						"images",
+						"app/validators/image_dimensions_validator.rb"
+					],
+					[
+						"sh",
+						"~/Desktop/Shane review"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 321.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 45,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
