@@ -14,4 +14,5 @@ set t_Co=256
 
 
 "colorscheme calmar256-dark
-colorscheme default
+colorscheme ir_black
+let g:airline_powerline_fonts = 1
